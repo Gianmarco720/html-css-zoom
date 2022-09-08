@@ -17,4 +17,47 @@
 img {
     max-width: 100%;
 }
+/* #endregion common rules */
 
+/* #region utility */
+.row {
+    display: flex;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+body {
+    background-color: var(--z-black);
+}
+
+.col_1 {
+    width: calc((100% / 12) * 1)
+}
+
+.col_2 {
+    width: calc((100% / 12) * 2)
+}
+
+.col_3 {
+    width: calc((100% / 12) * 3)
+}
+
+.top_control {
+    position: absolute;
+    top: 0;
+    left: 90%;
+    font-size: 12px;
+    color: var(--z-white);
+}
+
+.fa-solid {
+    padding-left: 10px;
+}
+
+.top_control .fa-grip {
+    background-color: var(--z-firstgrey);
+    border-radius: 1rem;
+}
