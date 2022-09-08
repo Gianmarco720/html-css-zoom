@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+:root {
+    --z-black: #000000;
+    --z-white: #FFFFFF;
+    --z-firstgrey: #4A4A4A;
+    --z-secondgrey: #222222;
+    --z-green: #4BC800;
+    --z-red: #D11313;
+}
+
 img {
     max-width: 100%;
 }
+
