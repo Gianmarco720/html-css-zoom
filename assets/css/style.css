@@ -22,7 +22,7 @@ img {
 /* #region utility */
 .row {
     display: flex;
-    gap: 1rem;
+    gap: 5px;
 }
 
 .container {
