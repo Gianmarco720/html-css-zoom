@@ -30,6 +30,7 @@ img {
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     background-color: var(--z-black);
 }
 
@@ -46,18 +47,23 @@ body {
 }
 
 .top_control {
-    position: absolute;
-    top: 0;
-    left: 90%;
-    font-size: 12px;
+    display: flex;
     color: var(--z-white);
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 12px;
 }
 
-.fa-solid {
-    padding-left: 10px;
-}
-
-.top_control .fa-grip {
+.top_control span {
+    margin: 0 10px 0 10px;
+    padding: 0 5px 0 5px;
     background-color: var(--z-firstgrey);
-    border-radius: 1rem;
+    border-radius: 5px;
+}
+
+.fa-maximize {
+    background-color: var(--z-firstgrey);
+    font-size: 10px;
+    padding: 3px;
+    border-radius: 5px;
 }
