@@ -95,12 +95,10 @@ main {
 }
 
 .img_profile{
-    position: relative;
+    display: flex;
 }
 
 .user {
-  position: absolute;
-  top: 110px;
   font-size: 10px;
   background-color: rgba(128, 128, 128, 0.478);
 }
