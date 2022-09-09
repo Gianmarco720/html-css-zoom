@@ -36,6 +36,10 @@ body {
     background-color: var(--z-black);
 }
 
+#p10_l {
+    padding-left: 10px;
+}
+
 /* #region colonne */
 .col_1 {
     width: calc((100% / 12) * 1)
@@ -121,11 +125,10 @@ footer {
     text-decoration: none;
     color: var(--z-white);
 }
-}
 
-.button_text span {
+.button_text {
     color: var(--z-white);
-    font-size: 10px;
+    font-size: 7px;
     margin-right: 5px;
 }
 
@@ -153,6 +156,22 @@ footer {
     padding-right: 50px;
 }
 
-.p30 {
+.p30_r {
     padding-right: 30px;
+}
+
+.p30_l {
+    padding-left: 30px;
+}
+
+.p15_l {
+    padding-left: 15px;
+}
+
+.p40_l {
+    padding-left: 40px;
+}
+
+#record {
+    padding-left: 35px;
 }
