@@ -121,6 +121,7 @@ footer {
     text-decoration: none;
     color: var(--z-white);
 }
+}
 
 .button_text span {
     color: var(--z-white);
@@ -137,11 +138,6 @@ footer {
     margin-right: 5px;
 }
 
-.col_9 i { 
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
 .ending {
     display: flex;
     justify-content: center;
@@ -150,4 +146,13 @@ footer {
     font-size: 10px;
     background-color: var(--z-firstgrey);
     color: var(--z-red);
+}
+
+.p50 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.p30 {
+    padding-right: 30px;
 }
