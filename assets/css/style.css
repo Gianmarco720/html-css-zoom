@@ -90,6 +90,7 @@ body {
 }
 /* #endregion banner */
 
+/* #region main */
 main {
     color: var(--z-white);
 }
@@ -104,4 +105,29 @@ main {
     bottom: 30px;
     font-size: 10px;
     background-color: rgba(128, 128, 128, 0.478);
+}
+/* #endregion main */
+
+footer {
+    background-color: var(--z-secondgrey);
+    color: var(--z-white);
+}
+
+.fa-angle-up {
+    font-size: 8px;
+}
+
+.footer_button {
+    text-decoration: none;
+    color: var(--z-white);
+    width: 25px;
+}
+
+.footer_button:hover {
+    cursor: pointer;
+}
+
+.button_text {
+    color: var(--z-white);
+    font-size: 10px;
 }
