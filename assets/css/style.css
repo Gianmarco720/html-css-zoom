@@ -112,9 +112,13 @@ main {
 }
 /* #endregion main */
 
+/* #region footer */
 footer {
     background-color: var(--z-secondgrey);
     color: var(--z-white);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .fa-angle-up {
@@ -175,3 +179,4 @@ footer {
 #record {
     padding-left: 35px;
 }
+/* #endregion footer */
